@@ -58,8 +58,8 @@ All models use **ImageNet pre-trained weights**, and only the top layers are fin
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/freshness-detection-ocr.git  
-   cd freshness-detection-ocr  
+   git clone https://github.com/aniketdhage1508/Grid_Robotics.git
+   cd Grid_Robotics
    ```
 
 2. **Install Dependencies**:  
@@ -72,7 +72,13 @@ All models use **ImageNet pre-trained weights**, and only the top layers are fin
    Place the dataset in the `dataset/Train` and `dataset/Test` directories as required.  
 
 4. **Set up Kaggle GPU (if needed)**:  
-   This solution is optimized for training on **Kaggle with GPU** enabled.  
+   This solution is optimized for training on **Kaggle with GPU** enabled.
+   Train the model and then save it.
+
+6. **Inference the Model with video**:
+   ```bash
+   python video_inference.py  
+   ```
 
 ## **Results and Plots**  
 - **Accuracy**:
