@@ -81,7 +81,7 @@ All models use **ImageNet pre-trained weights**, and only the top layers are fin
    ```
 
 ## **Results and Plots**  
-- **Accuracy**:
+- **Accuracy and Loss**:
   - Training Accuracy: 99.43%
   - Training Loss: 0.0307
   - Validation Accuracy: 98.50%
