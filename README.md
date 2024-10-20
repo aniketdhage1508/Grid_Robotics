@@ -2,8 +2,11 @@
 
 ## **Project Overview**  
 This project offers a solution to detect the freshness and quality of fresh produce and extract critical information from product labels using Optical Character Recognition (OCR). It aims to automate the process of monitoring product quality and expiry dates to improve inventory management and reduce food waste.
+---
 ![Output Image](OCR_output.jpg)
+---
 ![Freshness Output Result 1](Freshness_Output_1.jpg)
+---
 ![Freshness Output Result 1](Freshness_Output_2.jpg)
 
 ## **Table of Contents**  
