@@ -1,5 +1,3 @@
----
-
 # **Freshness Detection & Expiry Date Extraction System**  
 
 ## **Project Overview**  
@@ -16,14 +14,10 @@ This project offers a solution to detect the freshness and quality of fresh prod
 9. [Impact](#impact)  
 10. [Future Scope](#future-scope)
 
----
-
 ## **Objective**  
 - Extract essential product details using OCR from labels.  
 - Detect expiry dates and calculate the remaining shelf life.  
 - Classify fresh and rotten produce with high accuracy using multiple models.  
-
----
 
 ## **Technologies Used**  
 - **OCR**: PaddleOCR for extracting text from labels.  
@@ -33,8 +27,6 @@ This project offers a solution to detect the freshness and quality of fresh prod
 - **Environment**: Kaggle Notebooks with GPU support for fast training.  
 - **Programming Language**: Python  
 
----
-
 ## **Features**  
 - **OCR Extraction**: Extract expiry date and label details with confidence scores.  
 - **Shelf-life Calculation**: Compute remaining days from extracted expiry dates.  
@@ -42,14 +34,10 @@ This project offers a solution to detect the freshness and quality of fresh prod
 - **Real-Time Performance**: Process images quickly and provide freshness evaluation and label extraction results.  
 - **Multiple Model Comparison**: Evaluate different models to ensure the highest accuracy.  
 
----
-
 ## **Dataset**  
 The [kaggle dataset](https://www.kaggle.com/datasets/swoyam2609/fresh-and-stale-classification) and contains images of fruits and vegetables classified into two categories:  
 - **Fresh Produce**: Includes fresh apples, bananas, tomatoes, etc.  
 - **Rotten Produce**: Includes rotten versions of the same fruits/vegetables.
-
----
 
 ## **Model Architecture**  
 The project compares the performance of the following models:  
@@ -59,8 +47,6 @@ The project compares the performance of the following models:
 4. **InceptionV3**  
 
 All models use **ImageNet pre-trained weights**, and only the top layers are fine-tuned with the current dataset. The models are evaluated using metrics such as accuracy, loss, and validation accuracy. 
-
----
 
 ## **Setup and Installation**  
 
@@ -82,22 +68,16 @@ All models use **ImageNet pre-trained weights**, and only the top layers are fin
 4. **Set up Kaggle GPU (if needed)**:  
    This solution is optimized for training on **Kaggle with GPU** enabled.  
 
----
-
 ## **Results and Plots**  
 - **Accuracy**:
   Training Accuracy: 99.43% - Training Loss: 0.0307
   Validation Accuracy: 98.50% - Validation loss: 0.0493
 - **OCR Output**: Display extracted text and confidence scores from product labels.
 
----
-
 ## **Impact**  
 - **Automation**: Reduces the need for manual inspection of product labels and quality.  
 - **Waste Reduction**: Helps prevent spoilage by providing timely insights.  
 - **Better Inventory Management**: Enables better tracking of product shelf life and stock rotation.  
-
----
 
 ## **Future Scope**  
 - **Integration with IoT Sensors**: Use sensors to detect environmental conditions affecting product quality.  
@@ -105,15 +85,9 @@ All models use **ImageNet pre-trained weights**, and only the top layers are fin
 - **Expand Dataset**: Add more products and include regional produce.  
 - **API Integration**: Provide APIs for seamless integration with inventory management systems.  
 
----
-
 ## **Contributors**  
 - **Aniket Dhage** – AI/ML Engineer, Python Developer, Data Scientist​  
 - **Sanika Butle** - Python Developer, Software Engineer​ 
 
----
-
 ## **License**  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
-
----
